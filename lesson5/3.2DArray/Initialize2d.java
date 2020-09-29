@@ -1,9 +1,9 @@
 class Initialize2d {
 
     public static void main(String[] args) {
-        int [][] intArray2d;
+        int [][] intArray2d; //Declaration
 
-        intArray2d = new int [3][3];
+        intArray2d = new int [3][3]; //Creation
 
         String[] student = {"Maksim", "Ilya", "Aadi"};
 
@@ -21,21 +21,21 @@ class Initialize2d {
         intArray2d[2][2] = 8;
 
         
-
+        System.out.printf("%6s ", "");
         for (int i = 0; i < subject.length; i++) {
-            System.out.printf("%s ", subject[i]);
+            System.out.printf("%4s ", subject[i]);
         }
 
         System.out.println();
-
+        
 
         for (int row = 0; row < intArray2d.length; row++) {
             for (int column = 0; column < intArray2d[row].length; column++) {
                 if (column == 0) {
-                    System.out.printf("%s",student[row]); //How to format it better
+                    System.out.printf("%-6s",student[row]); //How to format it better
                 }
                 
-                System.out.printf("%d", intArray2d[row][column]); //Formatting
+                System.out.printf("%4d", intArray2d[row][column]); //Formatting
                 
             }
             System.out.println();

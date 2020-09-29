@@ -22,11 +22,11 @@ public class PassingArray {
     public static void main(String[] args){
         int[] myList = {1,2,3};
 
-        displayArray(myList);
+        displayArray(myList); //1,2,3,
 
         increaseArray(myList);
 
-        displayArray(myList);
+        displayArray(myList);//2,4,6
 
 
     }

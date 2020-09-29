@@ -9,22 +9,22 @@ class ArrayCopyDemo {
     public static void main(String[] args) {
 
         int[] myList1 = {1,2,3};
-        displayArray(myList1);
+        displayArray(myList1); //1,2,3
 
         int[] myList2 = {4,5,6};  
-        displayArray(myList2);
+        displayArray(myList2);// 4,5,6
 
         System.out.print("--------------------------------------\n");
         myList1 = myList2;
 
-        displayArray(myList1);
-        displayArray(myList2);
+        displayArray(myList1); //4,5,6
+        displayArray(myList2);//4,5,6
 
         myList2[2] = 7;
-        // System.out.print("--------------------------------------\n");
+        System.out.print("--------------------------------------\n");
 
-        // displayArray(myList1);
-        // displayArray(myList2);
+        displayArray(myList1);//4,5,6
+        displayArray(myList2);//4,5,7
 
 
         // char[] copyFrom = { 'd', 'e', 'c', 'a', 'f', 'f', 'e',

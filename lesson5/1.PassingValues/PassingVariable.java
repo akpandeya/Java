@@ -1,16 +1,16 @@
 public class PassingVariable {
     
-    public static void increaseInteger(int number) {
-        number++;
+    public static int increaseInteger(int number) {
+        return ++number;
     }
     public static void main(String[] args){
         int number1 = 10;
 
-        System.out.println(number1);
+        System.out.println(number1); // 10
 
-        increaseInteger(number1);
+        number1 = increaseInteger(number1); 
 
-        System.out.println(number1);
+        System.out.println(number1); // 11
 
 
     }
