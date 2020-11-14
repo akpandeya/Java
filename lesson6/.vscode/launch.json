@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultipleStageDemo",
+            "request": "launch",
+            "mainClass": "MultipleStageDemo",
+            "projectName": "lesson6_b7cb61a7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloFX",
+            "request": "launch",
+            "mainClass": "HelloFX",
+            "projectName": "lesson6_b7cb61a7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaFxIntro<lesson6_b7cb61a7>",
+            "request": "launch",
+            "vmArgs": "--module-path /Library/Java/Extensions/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "JavaFxIntro",
+            "projectName": "lesson6_b7cb61a7"
+        }
+    ]
+}

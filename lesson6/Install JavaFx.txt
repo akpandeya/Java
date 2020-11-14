@@ -1,0 +1,12 @@
+# Running using IDE
+1. Download JavaFx
+2. Check Configure Java Runtime
+3. Add References in JAVA Projects pointing to JavaFx
+4. In configuration add :
+"vmArgs": "--module-path /Library/Java/Extensions/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml",
+
+
+# For Running using Terminal/Command Prompt
+1. Follow: 
+https://openjfx.io/openjfx-docs/#install-javafx
+2. Set Up alias
